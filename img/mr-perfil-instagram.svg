@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080"><rect width="1080" height="1080" fill="#15171A"/><g transform="translate(251 288.4) scale(1.7)" fill="none" stroke="#F5F7F8" stroke-linejoin="miter" stroke-miterlimit="10">
+    <polygon points="88,5.97 252,5.97 334,148 252,290.03 88,290.03 6,148" stroke-width="11"/>
+    <g transform="translate(63.28 102.00) scale(0.92)"><path d="M7,100 V8 L72,62 L134.3,6.25 M137,100 V8 H200 A25,25 0 0 1 225,33 V37 A25,25 0 0 1 200,62 H137 M182,62 L226,100" stroke-width="15"/></g>
+  </g></svg>
