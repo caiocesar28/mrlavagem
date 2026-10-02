@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MR Estética Automotiva · Park Way, Brasília-DF</title>
-  <meta name="description" content="Lavagem Detalhada, Polimento Técnico, Vitrificação Cerâmica e Higienização no estúdio do Park Way ou a domicílio em todo o DF. Agende pelo WhatsApp.">
+  <meta name="description" content="Lavagens, Polimento Técnico, Vitrificação Cerâmica e Higienização no estúdio do Park Way ou a domicílio em todo o DF. Agende pelo WhatsApp.">
   <meta name="theme-color" content="#15171A">
   <meta property="og:title" content="MR Estética Automotiva">
   <meta property="og:description" content="Estúdio no Park Way e atendimento a domicílio em todo o DF. Agende pelo WhatsApp.">
@@ -100,11 +100,15 @@
           <article class="cartao" data-cat="carro">
             <div class="cartao__painel"><svg class="ico ico--grande"><use href="#i-lavagem"/></svg></div>
             <p class="cartao__cat">Automotivo</p>
-            <h3>Lavagem Detalhada</h3>
-            <p>Lavagem técnica da carroceria, rodas, caixas de roda, frisos e vidros, com secagem em microfibra para não marcar a pintura.</p>
-            <p class="cartao__tempo">Duração média: 3 h</p>
-            <div class="preco"><span class="preco__rotulo">A partir de</span><span class="preco__valor">R$ 180</span></div>
-            <button class="cartao__acao" data-servico="Lavagem Detalhada">Agendar <span aria-hidden="true">→</span></button>
+            <h3>Lavagens</h3>
+            <p>Da lavagem rápida da pintura à Lavagem Detalhada, que cuida da carroceria, rodas, caixas de roda, frisos e vidros, com secagem em microfibra para não marcar a pintura.</p>
+            <p class="cartao__tempo">Duração média da Lavagem Detalhada: 3 h</p>
+            <dl class="precos">
+              <div><dt>Lavagem da Pintura</dt><dd><span>a partir de</span> R$ 50</dd></div>
+              <div><dt>Lavagem Americana (simples)</dt><dd><span>a partir de</span> R$ 80</dd></div>
+              <div><dt>Lavagem Detalhada</dt><dd><span>a partir de</span> R$ 180</dd></div>
+            </dl>
+            <button class="cartao__acao" data-servico="">Agendar <span aria-hidden="true">→</span></button>
           </article>
 
           <article class="cartao" data-cat="carro">
@@ -283,7 +287,7 @@
           </details>
           <details>
             <summary>Como faço para agendar?</summary>
-            <p>Preencha o formulário abaixo ou chame direto no WhatsApp (61) 98136-3678. Se preferir, ligue para (61) 99838-9747. Respondemos com a disponibilidade e o valor.</p>
+            <p>Preencha o formulário abaixo ou chame direto no WhatsApp. Os dois números, (61) 98136-3678 e (61) 99838-9747, atendem por WhatsApp e por ligação. Respondemos com a disponibilidade e o valor.</p>
           </details>
         </div>
       </div>
@@ -297,8 +301,8 @@
           <h2>Vamos agendar</h2>
           <p>Escolha o serviço e as datas que funcionam para você. Ao enviar, o WhatsApp abre com a mensagem pronta. Confirmamos a disponibilidade e o valor por lá.</p>
           <ul class="contatos">
-            <li><span>WhatsApp</span><a href="https://wa.me/5561981363678" target="_blank" rel="noopener">(61) 98136-3678</a></li>
-            <li><span>Telefone</span><a href="tel:+5561998389747">(61) 99838-9747</a></li>
+            <li><span class="contatos__num">(61) 98136-3678</span><span class="contatos__acoes"><a href="https://wa.me/5561981363678" target="_blank" rel="noopener">WhatsApp</a><a href="tel:+5561981363678">Ligar</a></span></li>
+            <li><span class="contatos__num">(61) 99838-9747</span><span class="contatos__acoes"><a href="https://wa.me/5561998389747" target="_blank" rel="noopener">WhatsApp</a><a href="tel:+5561998389747">Ligar</a></span></li>
             <li><span>Instagram</span><a href="https://instagram.com/mr.higienizacaoelavagem" target="_blank" rel="noopener">@mr.higienizacaoelavagem</a></li>
             <li><span>Estúdio</span>Park Way, Brasília-DF</li>
           </ul>
@@ -310,6 +314,8 @@
             <select id="f-servico" name="servico" required>
               <option value="" disabled selected>Selecione</option>
               <optgroup label="Automotivo">
+                <option>Lavagem da Pintura</option>
+                <option>Lavagem Americana (simples)</option>
                 <option>Lavagem Detalhada</option>
                 <option>Higienização Interna</option>
                 <option>Polimento Técnico</option>
@@ -385,7 +391,7 @@
   <footer class="rodape">
     <div class="conteiner rodape__in">
       <img src="img/mr-logo-horizontal-claro.svg" alt="MR Estética Automotiva" width="200" height="43" loading="lazy">
-      <p>Park Way, Brasília-DF · A domicílio em todo o DF<br>(61) 98136-3678 · (61) 99838-9747</p>
+      <p>Park Way, Brasília-DF · A domicílio em todo o DF<br>WhatsApp e telefone: <a href="https://wa.me/5561981363678" target="_blank" rel="noopener">(61) 98136-3678</a> · <a href="https://wa.me/5561998389747" target="_blank" rel="noopener">(61) 99838-9747</a></p>
       <p class="rodape__copy">© <span id="ano">2026</span> MR Estética Automotiva</p>
     </div>
   </footer>

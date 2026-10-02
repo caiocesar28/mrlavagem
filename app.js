@@ -81,8 +81,10 @@ local.addEventListener('change', atualizarCampos);
 
 // "Agendar" nos cartões: preenche o serviço e leva ao formulário
 document.querySelectorAll('.cartao__acao').forEach(botao => botao.addEventListener('click', () => {
-  servico.value = botao.dataset.servico;
-  atualizarCampos();
+  if (botao.dataset.servico) {
+    servico.value = botao.dataset.servico;
+    atualizarCampos();
+  }
   agendar.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   setTimeout(() => servico.focus({ preventScroll: true }), 500);
 }));
